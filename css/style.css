@@ -13,7 +13,7 @@ h1 {
     margin: 2%;
 }
 
-section {
+.flex {
     display: flex;
     color: #fff;
 }
@@ -26,13 +26,15 @@ section {
 
 .half-width {
     height: 500px;
-    padding-left: 2%;
+    padding: 2%;
     width: 50%;
+    text-align: justify;
+
 
 }
 
 .half-width img {
-    height: 499px;
+    height: 525px;
 }
 
 .hire-me {
@@ -46,4 +48,50 @@ section {
 .sec-section {
     background-image: url("../img/Banner3.jpg");
     margin: 2%;
+}
+
+#experiences {
+    padding-left: 2%;
+    background-color: #b3ced4;
+    color: #fff;
+}
+
+.third {
+    background-image: url("../img/3rd.jpg");
+
+    height: 280px;
+    padding: 2%;
+    width: 50%;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+
+
+}
+
+#third1 {
+    border-left: 5px solid;
+    border-image: linear-gradient(#0f1e43, #6b83c7);
+    border-image-slice: 1;
+    margin-right: 30px;
+}
+
+#third2 {
+    border-left: 5px solid;
+    border-image: linear-gradient(#0f1e43, #6b83c7);
+    border-image-slice: 1;
+    margin-left: 30px;
+}
+
+.thir-section {
+    margin: 2%;
+}
+
+footer {
+    text-align: center;
+    background-color: #b0cdd7;
+    margin: 2%;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
 }
